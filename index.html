@@ -8,97 +8,240 @@
 
 <body>
   <header class="header">
-    <a href="" class="logo"><img src="" class="logo_pic"></a>
-    <address class="phone"><a>8 800 700 30 30</address>
-    <a class="worktime" href="" title="пн-вс 09:00-20:00 обед 14:00-14:30">График работы</a>
+    <a href="" class="logo">
+      <img src="" class="logo__pic">
+    </a>
     <nav class="nav">
-      <ul classs="nav_info">
-        <li><a href="">Главная</a></li>
-        <li><a href="">Услуги</a></li>
-        <li><a href="">Отзывы</a></li>
+      <ul classs="nav__list">
+        <li class="nav__item">
+          <a class="nav__item-link" href="">Главная</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-link" href="">Услуги</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-link" href="">Отзывы</a>
+        </li>
       </ul>
     </nav>
-  </header>
-  <main class="content">
+    <address class="phone">
+      <a class="phone__contact" href="tel:+78007003030">8 800 700 30 30</a>
+    <div class="workhours">
+      <a href="" title="пн-вс 09:00-20:00 обед 14:00-14:30">График работы</a>
+    </div>
+    </address>
+   </header>
+ 
+  
+   <main class="content">
     <div class="intro">
-      <h1 class="intro_title">Авторские туры по Азии</h1>
-      <h2 class="intro_subtit">Открой для себя Азию</h2>
-      <a href="" class="intro_btn">Подробнее</a>
+      <div class="intro__title">
+        <h1 class="intro__title-heading">Авторские туры по Азии</h1>
+        </div>
+      <div class="intro__text">
+        <h2 class="intro__text-subtit-">Открой для себя Азию</h2>
+      </div>
+      <div class="intro__btn">
+        <a href="" class="intro__btn-link">Подробнее</a>
+      </div>
     </div>
-    <div class="tours">
-      <h2>Горящие туры</h2>
-      <ul>
-        <li class="tour_list"><img src="">
-          <h3>Тайланд</h3>
-          <p><img src="" alt="">7-12 ночей</p>
-          <p><img src="" alt="">завтраки</p>
-          <p><img src="" alt="">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение
-            систем массового участия.</p>
-          <a href="" class="video">смотреть</a>
-        </li>
-        <li class="tour_list"><img src="">
-          <h3>Бали</h3>
-          <p><img src="" alt="">7-12 ночей</p>
-          <p><img src="" alt="">завтраки</p>
-          <p>Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
-            участия.</p>
-          <a href="" class="video">смотреть</a>
-        </li>
-        <li class="tour_list"><img src="">
-          <h3>Индонезия</h3>
-          <p><img src="">7-12 ночей</p>
-          <p><img src="">завтраки</p>
-          <p>Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
-            участия.
-          </p>
-          <a href="" class="video">смотреть</a>
-        </li>
-      </ul>
-    </div>
-    <div class="news">
 
-      <ul>
-        <li class="news_list"><img src="">
-          <p>Декабрь 2019</p>
-          <h3>Дещевые путевки на Новый год</h3>
-          <p>Проведи Новый год в Тайланде</p>
-        </li>
-        <li class="news_list">
-          <p>Декабрь 2019</p>
-          <h3>Акция для серфенгистов!</h3>
-          <p>В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
-        </li>
-        <li class="page_list">страница 1 из 7 <a class="page" href="">1</a><a class="page" href="">2</a><a class="page"
-            href="">3</a><a class="page" href="">4</a><a class="page" href="">5</a><a class="page" href="">6</a><a
-            class="page" href="">7</a>
-        </li>
-      </ul>
+
+    <div class="tours__header">
+        <h2 class="tours__header-title">Горящие туры</h2>
+        <img src="" alt="" class="tours__header-ico">
     </div>
+
+    <div class="tours">
+      <ul class="tours__list">
+        <li class="tours__item">
+          <div class="tours__thailand">
+            <img class="tours__pic" src="">
+            <h3 class="tours__title">Тайланд</h3>
+             <div class="tours__days">
+               <img class="tours__days-ico" src="" alt="">
+               <span class="tours__text">7-12 ночей</span>
+              </div>
+
+             <div class="tours__breakfasts">
+               <img class="tours__breakfasts-ico" src="" alt="">
+               <span class="tours__text">завтраки</span>
+              </div>
+              
+             <div class="tours__info">
+                <span class="tours__info-text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение
+                систем массового участия.</span>
+             </div>
+              
+             <div class="tours__video">
+               <a href="" class="video">смотреть</a>
+              </div>
+          </div>      
+        </li>
+
+        <div class="tours">
+          <ul class="tours__list">
+            <li class="tours__item">
+              <div class="tours__bali">
+                <img class="tours__pic" src="">
+                <h3 class="tours__title">Бали</h3>
+                 <div class="tours__days">
+                   <img class="tours__days-ico" src="" alt="">
+                   <span class="tours__text">7-12 ночей</span>
+                  </div>
+    
+                 <div class="tours__breakfasts">
+                   <img class="tours__breakfasts-ico" src="" alt="">
+                   <span class="tours__text">завтраки</span>
+                  </div>
+                  
+                 <div class="tours__info">
+                    <span class="tours__info-text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение
+                    систем массового участия.</span>
+                 </div>
+                  
+                 <div class="tours__video">
+                   <a href="" class="video">смотреть</a>
+                  </div>
+              </div>  
+
+            </li>
+            <div class="tours">
+              <ul class="tours__list">
+                <li class="tours__item">
+                  <div class="tours__indonesia">
+                    <img class="tours__pic" src="">
+                    <h3 class="tours__title">Индонезия</h3>
+                     <div class="tours__days">
+                       <img class="tours__days-ico" src="" alt="">
+                       <span class="tours__text">7-12 ночей</span>
+                      </div>
+        
+                     <div class="tours__breakfasts">
+                       <img class="tours__breakfasts-ico" src="" alt="">
+                       <span class="tours__text">завтраки</span>
+                      </div>
+                      
+                     <div class="tours__info">
+                        <span class="tours__info-text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение
+                        систем массового участия.</span>
+                     </div>
+                      
+                     <div class="tours__video">
+                       <a href="" class="video">смотреть</a>
+                      </div>
+                  </div>      
+                </li>
+            
+    
+    <div class="news">
+      <div class="news__stock">
+        <h2 class="news__stock-info">Новости и акции</h2>
+      </div>
+
+      <ul class="news_list">
+        <li class="news__item">
+          <div class="news__main">
+            <div class="news__photo">
+              <img class="news__photo-pic" src="">
+            </div>
+            <div class="news__main">
+              <p class="news__main-date">Декабрь 2019</p>
+              <h3 class="news__main-title">Дешевые путевки на Новый год</h3>
+              <p class="news__main__text">Проведи Новый год в Тайланде</p>
+            </div>
+        </li>
+          <li class="news__item"><div class="news__main">
+            <div class="news__photo">
+              <img class="news__photo-pic" src="">
+            </div>
+            <div class="news__main">
+              <p class="news__main-date">Декабрь 2019</p>
+              <h3 class="news__main-title">Акция для серфенгистов!</h3>
+              <p class="news__main__text">В сезон больших волн скидка на путевку в Тайланд на островсерфенгистов. Удачного пути!</p>
+            </div>
+          </li>
+
+          <div class="paginator">
+            <div class="paginator__display">Страница 1 из 7</div>
+            <ul class="paginator__list">
+              <il class="paginator__item">1</il>
+              <il class="paginator__item">2</il>
+              <il class="paginator__item">3</il>
+              <il class="paginator__item">4</il>
+              <il class="paginator__item">5</il>
+              <il class="paginator__item">6</il>
+              <il class="paginator__item">7</il>
+            </ul>
+          </div>
+    
+    
     <div class="info">
-      <img class="photo" src="" alt="">
-      <img class="photo_2" src="" alt="">
-      <h3 class="our">О нас</h3>
-      <p class="our_text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
+      <div class="info__photo">
+        <img class="info__photo-pic" src="" alt="">
+      </div>
+      <div class="info__photo-two">
+        <img class="info__photo-text" src="" alt="">
+      </div>
+      <div class="info__title">
+        <h3 class="info__title-us">О нас</h3>
+      </div>
+      <div class="info__text">
+        <p class="info__text-us">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
         более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
         выступлений в домашних условиях. </p>
-      <a class="our_btn" href="">подробнее</a>
+      </div>
+      <div class="info__btn">
+        <a class="info__btn-us" href="">подробнее</a>
+      </div>
       </div>
   </main>
+  
+  
   <footer class="footer">
-    <a href="" class="logo"><img src="" class="logo_pic"></a>
-    <address class="phone"><a>8 800 700 30 30</address>
-      <p class="phone_numb">бесплатный звонок по России</p>
-    <nav class="nav">
-      <ul>
-        <li classs="nav_info"><a href="">Главная</a></li>
-        <li classs="nav_info"><a href="">Услуги</a></li>
-        <li classs="nav_info"><a href="">Отзывы</a></li>
-        <li class="ico"><img src="" alt=""><a href="" title="телеграмм"></a></li>
-        <li class="ico"><img src="" alt=""><a href="" title="вконтакте"></a></li>
-        <li class="ico"><img src="" alt="" t><a href="" title="фейсбук"></a></li>
-        <li class="ico"><img src="" alt="" t><a href="" title="инстаграмм"></a></li>
+    <a href="" class="footer__logo">
+      <img src="" class="footer__logo-pic">
+    </a>
+    <address class="footer__phone">
+      <a class="footer__phone-numb" href="tel+78007003030:">8 800 700 30 30</a>
+      </address>
+      <div class="footer__text">
+        <p class="footer__text-info">бесплатный звонок по России</p>
+      </div>
+    <nav class="footer__nav">
+      <ul class="footer__nav-list">
+        <li classs="footer__nav-item">
+          <a class="footer__nav-link" href="">Главная</a>
+        </li>
+        <li classs="footer__nav-item">
+          <a class="footer__nav-link" href="">Услуги</a>
+        </li>
+        <li classs="footer__nav-item">
+          <a class="footer__nav-link" href="">Отзывы</a>
+        </li>
+    </nav> 
+
+
+    <div class="social">
+      <ul class="social__networks">
+        <li class="social__networks-tlg">
+          <img class="social__networks-ico" src="" alt="">
+          <a href="" title="телеграмм" title="телеграмм"></a>
+        </li>
+        <li class="social__networks-vk">
+          <img class="social__networks-ico" src="" alt="">
+          <a href="" title="вконтакте"></a>
+        </li>
+        <li class="social__networks-fb">
+          <img class="social__networks-ico" src="" alt="" t>
+          <a href="" title="фейсбук"></a>
+        </li>
+        <li class="social__networks-inst">
+          <img class="social__networks-ico" src="" alt="">
+          <a href="" title="инстаграмм"></a>
+        </li>
       </ul>
-    </nav>
+    </div>
   </footer>
 </body>
 
