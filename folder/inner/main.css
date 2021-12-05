@@ -186,7 +186,7 @@ box-sizing: border-box;
 
 
 .tours__title{
-  padding: 27px 198px 21px 22px;
+  padding: 27px 198px 16px 22px;
   font-size: 24px;
   color: #000000;
   font-weight: bold;
@@ -196,20 +196,21 @@ box-sizing: border-box;
   margin-right: 0;
 }
 
-.tours__suggestions{
-  display: inline;
-  width: 200px;
+
+
+
   
-}
 
 .tours__days{
   display: inline-block;
-  padding-right:116px ;
   padding-left: 28px;
   color: #666666;
   font-size: 16px;
+  margin-right: 24px;
   
 }
+
+
 
 .tours__breakfasts{
   display: inline-block;
@@ -218,20 +219,20 @@ box-sizing: border-box;
 }
 
 .tours__ico{
-  padding-right: 10px;
+  padding-right: 7px;
 }
 
 
-.tours__text{
-  position: absolute;
-  display: inline;
 
-}
 
 .tours__info-text{
   color:#303030;
   padding: 4px 2px 1px 22px;
   font-size: 14px;
+}
+
+.tours__info{
+  margin-top: 19px;
 }
 
 
@@ -374,6 +375,7 @@ box-sizing: border-box;
   
 }
 
+
 .info__photo-text{
   position: absolute;
   top: 0;
@@ -391,19 +393,25 @@ box-sizing: border-box;
   
 }
 
+.info__story{
+  padding-top: 67px;
+  padding-left: 81px;
+  
+}
+
 
 .info__title-us{
   font-weight: bold;
   font-size: 36px;
   color:#000;
   margin-bottom: 37px;
-  padding: 69px 75px 0px 81px;
+  
 }
 
 .info__text{
-  margin-bottom: 61px;
+ 
   color:#060606;
-  padding-left: 80px;
+  
   
 }
 
@@ -411,12 +419,12 @@ box-sizing: border-box;
 
 
 .info__text p{
-  margin-bottom: 20px;
+  
   line-height: 1.67;
+  padding-bottom: 46px;
 }
-.info__text p:last-child{
-  margin-bottom: 0;
-}
+
+
 
 .info__photo-two{
   margin-left: 355px;
@@ -433,7 +441,7 @@ background:#F5170E;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  margin-left: 80px;
+  
   }
 
   .info:after{
