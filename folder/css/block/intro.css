@@ -1,0 +1,28 @@
+.intro{
+  width: 520px;
+  height: 340px;
+  margin-bottom: 237px;
+}
+
+.intro__title-heading{
+  font-size: 72px;
+  margin-bottom: 27px;
+  line-height: 1.35;
+  font-weight: bold;
+ 
+}
+
+.intro__text-subtit{
+  font-size: 18px;
+  margin-bottom: 46px;
+}
+
+.intro__btn-link{
+  background:#F5170E;
+  border-radius: 35px;
+  font-size: 14px;
+  padding: 18px 40px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}

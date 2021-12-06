@@ -1,0 +1,21 @@
+.nav{
+  position: absolute;
+  top: 39px;
+  left: 164px;
+}
+
+
+.nav__item{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 51px;
+}
+
+.nav__item:last-child{
+  margin-right: 0;
+}
+
+.nav__link{
+  font-size: 14px;
+  text-decoration: none;
+}
