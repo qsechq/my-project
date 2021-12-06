@@ -1,10 +1,8 @@
 .info__photo{
-  position: relative; 
   display: inline-block;
 }
 
-
-.info__photo-text{
+.info__photo-two{
   position: absolute;
 }
 
