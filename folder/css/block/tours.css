@@ -4,20 +4,28 @@
 
 .tours__header{
  margin-bottom: 50px;
+ display: flex;
+ align-items: center;
 }
 
 .tours__header-title{
   font-size: 36px;
   font-weight: bold;
-  display: inline;
-  padding-right: 11px;
+  padding-right: 14px;
+  
+}
+
+.tours__header-ico{
+  height: 28px;
+  width: 21px;
 }
 
 .tours__item{
   min-height: 449px;
+  min-width: 362px;
   background:#fff;
   border-radius:4px;
-  display: inline-block;
+  display:inline-flex;
   color:#303030;
   border-radius: 5px 5px;
   margin-right: 23px;
@@ -38,8 +46,11 @@
   margin-right: 0;
 }
 
+.tours__suggestions{
+ display: flex;
+}
+
 .tours__days{
-  display: inline-block;
   padding-left: 28px;
   color: #666666;
   font-size: 16px;
@@ -47,7 +58,7 @@
 }
 
 .tours__breakfasts{
-  display: inline-block;
+  
   color: #666666;
   font-size: 16px;
 }
