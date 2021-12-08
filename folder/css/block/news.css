@@ -9,7 +9,7 @@
 
 .news__item{
   width: 557px;
-  display: inline-block;
+  display: inline-flex;
   vertical-align: top;
   position: relative;
   border-radius: 5px;
@@ -18,13 +18,6 @@
 
 .news__item:last-child{
   margin-right: 0;
-}
-
-.news__cover {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .news__main{
