@@ -7,7 +7,10 @@ body {
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   margin: 0 auto;
-  
+}
+
+html, body{
+  height: 100%;
 }
 
 .container{
@@ -40,4 +43,32 @@ box-sizing: border-box;
 .main-page--wrapper{
   background:url(../../img/1.png) center  top  no-repeat, url(../../img/2.png) right bottom 158px no-repeat;
  position: relative; 
+}
+
+.wrapper-image{
+  background: url(../../img/headline\ 1.png) center top no-repeat;
+  height: 412px;
+}
+
+.wrapper{
+  overflow: hidden;
+  min-width: 1141px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+
+.main__service{
+  background-color: #fff;
+}
+
+.title{
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 2.9px;
+}
+
+.suggestions{
+  background:#fff;
 }
