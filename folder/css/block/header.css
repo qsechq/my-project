@@ -1,5 +1,5 @@
-.header{
-  height: 118px;
-  position: relative;
-  margin-bottom: 79px;
+  height: 102px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
 }
