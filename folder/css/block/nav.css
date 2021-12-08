@@ -1,13 +1,11 @@
 .nav{
-  position: absolute;
-  top: 39px;
-  left: 164px;
+  display: flex;
+  align-items: center;
+  margin-left: 73px;
 }
 
-
 .nav__item{
-  display: inline-block;
-  vertical-align: middle;
+  display: inline-flex;
   margin-right: 51px;
 }
 
@@ -18,4 +16,8 @@
 .nav__link{
   font-size: 14px;
   text-decoration: none;
+}
+
+.nav{
+  flex:2;
 }
