@@ -1,22 +1,21 @@
 .phone{
-  position: absolute;
-  display: inline-block;
-  top:27px;
-  right: 0;
+  display: flex;
   font-style: normal;
-  text-align: right;
+  justify-content: center;
+  flex-direction:column;
+  align-items:flex-end;
 }
 
 .phone__contact{
   text-decoration: none;
   font-size: 26px;
-  margin-bottom: 2px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .workhours{
-  position: absolute;
-  top:26px;
-  left:92px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .workhours__info{
