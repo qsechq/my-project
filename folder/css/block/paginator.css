@@ -4,28 +4,21 @@
 }
 
 .paginator__display,.paginator__list{
-  display: inline;
-  vertical-align: middle;
+  display: inline-flex;
+
 }
 
-.paginator__display{
-  margin-bottom: 154px;
-  margin-left: 20px;
-}
 
 .paginator__list{
-  display: inline-block;
-  vertical-align: middle;
+  display: inline-flex;
   margin-left: 26px
 }
 
 .paginator__item{
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
 }
 
 .paginator__link{
-  display: inline-block;
   width: 32px;
   height: 32px;
   border-radius: 50%;
