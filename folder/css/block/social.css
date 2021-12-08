@@ -1,11 +1,10 @@
 .social{ 
-  position: absolute;
-  top: 31px;
-  right: 252px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .social__list{
-  display: inline-block;
+  display: inline-flex;
   vertical-align: middle;
   margin-right: 10px;
 
@@ -37,4 +36,8 @@
 
 .social__list--icon--instagram{
   background-image: url("../../img/in.png");
+}
+
+.social{
+  flex:1;
 }
