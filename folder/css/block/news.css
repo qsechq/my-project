@@ -1,0 +1,45 @@
+.news__stock-info{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.news__stock{
+  margin-bottom: 49px;
+}
+
+.news__item{
+  width: 557px;
+  display: inline-flex;
+  vertical-align: top;
+  position: relative;
+  border-radius: 5px;
+  margin-right: 21px;
+}
+
+.news__item:last-child{
+  margin-right: 0;
+}
+
+.news__main{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding:25px 30px;
+  min-height:140px;
+}
+
+.news__main-date{
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.news__main-title{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.news__list{
+  margin-bottom: 44px;
+}

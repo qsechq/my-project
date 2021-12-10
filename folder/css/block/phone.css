@@ -1,0 +1,29 @@
+.phone{
+  display: flex;
+  font-style: normal;
+  justify-content: center;
+  flex-direction:column;
+  align-items:flex-end;
+}
+
+.phone__contact{
+  text-decoration: none;
+  font-size: 26px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.workhours{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.workhours__info{
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.phone__text{
+  color: #9A9A9A;
+  font-size: 11px;
+}
