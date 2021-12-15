@@ -146,7 +146,7 @@
     display: inline-flex;
 }
 
-.form__btn-sbt:hover{
+.form__btn-reset:hover{
   font-size: 14px;
     background: #F5170E;
     border-radius: 35px;
