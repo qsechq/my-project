@@ -131,6 +131,14 @@
 .form__btn-reset{
   margin-right: 18px;
   background: #8E8E8E;
+  font-size: 14px;
+    border-radius: 35px;
+    padding: 18px 44px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-flex;
 }
 
 
