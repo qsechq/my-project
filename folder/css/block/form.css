@@ -115,18 +115,6 @@
     display: inline-flex;
 }
 
-.form__btn--style{
-  font-size: 14px;
-  background: #2B2B2B;
-  border-radius: 35px;
-  padding: 18px 44px;
-  color: #FFFFFF;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-flex;
-}
-
 
 .form__btn-reset{
   margin-right: 18px;
