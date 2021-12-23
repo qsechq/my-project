@@ -1,0 +1,133 @@
+.social{ 
+  display: flex;
+  align-items: center;
+  flex:1;
+  padding-left: 46px;
+  position: relative;
+}
+
+.social__list{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  position: relative;
+
+}
+
+.social__list:last-child{
+  margin-right: 0;
+}
+
+.social__link{
+  display: block;
+  text-decoration: none;
+  width:36px;
+  height: 36px;
+  background:center center no-repeat;
+}
+
+
+.social__list:nth-child(1):before{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 36px;
+  min-height: 36px;
+  background: url(../../img/sprites.png)-122px -66px;
+  transition: .3s;
+}
+
+.social__list:nth-child(1):hover:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 36px;
+  min-height: 36px;
+  background: url(../../img/sprites.png)-122px -10px;
+  transition: .3s;
+}
+.social__list:nth-child(2):before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 36px;
+  min-height: 36px;
+  background: url(../../img/sprites.png) -10px -122px;
+}
+
+.social__list:nth-child(2):hover:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 36px;
+  min-height: 36px;
+  background: url(../../img/sprites.png) -66px -122px;
+}
+
+
+
+.social__list:nth-child(3):before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 36px;
+  min-height: 36px;
+  background: url(../../img/sprites.png) -10px -66px;
+}
+
+.social__list:nth-child(3):hover:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 36px;
+  min-height: 36px;
+  background: url(../../img/sprites.png)-66px -66px;
+}
+
+
+
+
+
+.social__list:nth-child(4):before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 36px;
+  min-height: 36px;
+  background: url(../../img/sprites.png) -10px -10px;
+}
+
+.social__list:nth-child(4):hover:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 36px;
+  min-height: 36px;
+  background: url(../../img/sprites.png) -66px -10px;
+}
+
+
