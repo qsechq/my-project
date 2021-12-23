@@ -1,0 +1,41 @@
+.investors{
+  background-color:#F4F5F5;
+  padding-top: 90px;
+  padding-bottom: 7px;
+}
+
+.partners{
+  padding-bottom: 77px;
+}
+
+.partners__title{
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 93px;
+  color: #000;
+}
+
+.partners__title-heading{
+  margin: 0;
+}
+
+.partners__list{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: -50px;
+  margin-bottom: -80px;
+}
+
+
+
+.partners__item{
+  margin-right: 50px;
+  margin-bottom: 80px;
+}
+
+.partners__item:last-child{
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
