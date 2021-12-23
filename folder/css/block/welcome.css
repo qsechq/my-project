@@ -1,0 +1,96 @@
+.welcome{
+  animation: myanimation 1s 1s forwards;
+  animation-timing-function: cubic-bezier(.24,-0.19,.55,1.29);
+  opacity: 0;
+}
+.wrapper__welcome{
+  background: url(../../img/bg.png) center center no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  z-index: 10;
+}
+
+.welcome__intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.welcome__intro-title{
+  font-size: 18px;
+  padding-bottom: 69px;
+  margin-top: -10px;
+  line-height: 1.27;
+}
+
+.welcome__intro-button{
+  background:#F5170E;
+  border-radius: 35px;
+  font-size: 14px;
+  padding: 18px 60px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border: 0px solid;
+}
+
+.welcome__intro-button:hover{
+  background:#DA0100;
+  border-radius: 35px;
+  font-size: 14px;
+  padding: 18px 60px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border: 0px solid;
+  transition: 1s;
+}
+
+.welocme__intro-background{
+  position: absolute;
+  z-index: 20;
+  padding-bottom: 105px;
+}
+
+.welcome__intro-block{
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes myanimation{
+  0%{
+    opacity: 0.5;
+    transform: scale(1);
+  }
+
+  25%{
+    transform: scale(1.25);
+    opacity: 1;
+  }
+
+  50%{
+   transform: scale(1);
+   opacity: 1;
+  }
+
+  75%{
+    transform: scale(1.25);
+    opacity: 1;
+  }
+
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
